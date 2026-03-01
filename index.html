@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <header>
+    <div class="headdiv">
+
+        <div class="topnav" id="myTopnav">
+  <img src="/images/logo.svg" alt="logo" >
+  <div class="menu_links">
+  <a href="#">About</a>
+  <a href="#">Careers</a>
+  <a href="#">Events</a>
+  <a href="#">Products</a>
+  <a href="#">Support</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+</div>
+<h1>
+  Immersive experiences that deliver
+</h1>
+</div>
+  </header>
+  
+  <main>
+  <div class="intro">
+ <img src="/images/mobile/image-interactive.jpg" alt="interactive" class="img" id="img1">
+ <img src="/images/desktop/image-interactive.jpg" alt="interactive" class="img" id="img2">
+    <div class="introtext">
+  <h2>The leader in interactive VR</h2>
+
+ <p> Founded in 2011, Loopstudios has been producing world-class virtual reality 
+  projects for some of the best companies around the globe. Our award-winning 
+  creations have transformed businesses through digital experiences that bind 
+  to their brand.
+</p>
+</div>
+</div>
+<div class="titles">
+  <h2>Our creations</h2>
+<h4 class="desktop">See all</h4>
+ </div>
+  <div class="images">
+  <div class="imgbox">
+<img src="/images/mobile/image-deep-earth.jpg" alt="deepearth" class="textpic" id="pic1">
+<img src="/images/desktop/image-deep-earth.jpg" alt="deepearth" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>Deep earth</h3></div> 
+  </div>
+  <div class="imgbox">
+<img src="/images/mobile/image-night-arcade.jpg" alt="nightarcade" class="textpic" id="pic1">
+<img src="/images/desktop/image-night-arcade.jpg" alt="nightarcade" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>Night arcade</h3></div> 
+  </div>
+   <div class="imgbox">
+<img src="/images/mobile/image-soccer-team.jpg" alt="soccerteam" class="textpic" id="pic1">
+<img src="/images/desktop/image-soccer-team.jpg" alt="soccerteam" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>Soccer team VR</h3></div> 
+  </div>
+    <div class="imgbox">
+<img src="/images/mobile/image-grid.jpg" alt="grid" class="textpic" id="pic1">
+<img src="/images/desktop/image-grid.jpg" alt="grid" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>The grid</h3></div> 
+  </div>
+  <div class="imgbox">
+<img src="/images/mobile/image-from-above.jpg" alt="fromabove" class="textpic" id="pic1">
+<img src="/images/desktop/image-from-above.jpg" alt="fromabove" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>From up above VR</h3></div> 
+  </div>
+  <div class="imgbox">
+<img src="/images/mobile/image-pocket-borealis.jpg" alt="pocketborealis" class="textpic" id="pic1">
+<img src="/images/desktop/image-pocket-borealis.jpg" alt="pocketborealis" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>Pocket borealis</h3></div> 
+  </div>
+    <div class="imgbox">
+<img src="/images/mobile/image-curiosity.jpg" alt="curiosity" class="textpic" id="pic1">
+<img src="/images/desktop/image-curiosity.jpg" alt="curiosity" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>The curiosity</h3></div> 
+  </div>
+    <div class="imgbox">
+<img src="/images/mobile/image-fisheye.jpg" alt="fisheye" class="textpic" id="pic1">
+<img src="/images/desktop/image-fisheye.jpg" alt="fisheye" class="textpic" id="pic2">
+<div class="textbox"> 
+<h3>Make it fisheye</h3></div> 
+  </div>
+</div>
+<h4 class="mob">See all</h4>
+</main>
+<footer>
+
+  <img src="/images/logo.svg" alt="logo">
+  <div class="links">
+  <a href="#">Careers</a>
+  <a href="#">Events</a>
+  <a href="#">Products</a>
+  <a href="#">Support</a>
+  </div>
+  <div class="icons">
+  <a href="#"><img src="/images/icon-facebook.svg" alt="iconfb" class="icon"></a>
+  <a href="#"><img src="/images/icon-twitter.svg" alt="icontwitter" class="icon"></a>
+  <a href="#"><img src="/images/icon-pinterest.svg" alt="iconpinterest" class="icon"></a>
+  <a href="#"><img src="/images/icon-instagram.svg" alt="iconinsta" class="icon"></a>
+</div>
+
+  
+
+  <p>© 2021 Loopstudios. All rights reserved.</p>
+</footer>
+
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
